@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+
+    padding: 0;
+    margin: 0;
+}
+
+/* That is header styling started */
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #070710;
+}
+
+.navbar {
+    background-color: black;
+    border-radius: 20px;
+}
+
+.navbar ul {
+    overflow: auto;
+
+}
+
+.fa-solid {
+    color: yellow;
+    float: left;
+    margin: 11px 44px;
+}
+
+.navbar li {
+    list-style: none;
+    float: left;
+    margin: 10px 6px
+}
+
+.navbar li :hover {
+    background-color: yellow;
+    color: black;
+    padding: 2px 2px;
+}
+
+
+.navbar li a {
+    text-decoration: none;
+    color: yellow;
+    padding: 15px 0px;
+    margin: 20px 44px;
+
+}
+
+.search-bar {
+    float: right;
+    padding: 8px 46px;
+
+}
+
+.search-bar input {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 233px;
+    color: white;
+    padding: 3px;
+    background-color: yellow;
+    background: none;
+}
+
+input::placeholder {
+    padding: 10px;
+}
+
+.search-icon i {
+    float: right;
+    margin: 12px -300px;
+    
+    
+}
+
+
+/* close header */
+
+/* <!-- That is a started heading and paraghraph --> */
+
+
+#heading {
+    color: yellow;
+
+}
+
+.first {
+    margin: 70px 50px;
+    font-size: 38px;
+    width: 747px;
+}
+
+#btn {
+    margin: 12px 35px;
+    width: 500px;
+
+}
+
+.login ul {
+    overflow: auto;
+}
+
+#btn li {
+    float: left;
+    list-style: none;
+    margin: 0px 14px;
+    background-color: #000000;
+    padding: 5px;
+}
+
+#btn li :hover {
+    background-color: yellow;
+    color: black;
+    padding: 2px 2px;
+}
+
+.login li a {
+    text-decoration: none;
+    color: yellow;
+    font-size: 25px;
+
+}
+
+/* close heading and paraghraph */
+
+
+/* <!-- Thats started login form  --> */
+
+
+form {
+    border: 1px solid white;
+    width: 174px;
+    padding: 45px;
+    border-radius: 10px 40px 10px 40px;
+    margin: -233px 1000px;
+    height: 210px;
+    box-shadow: 10px 20px 36px #000000;
+    background-color: #000000;
+}
+
+.containerh1 {
+    color: yellow;
+}
+.container{
+    margin: 25px -25px;
+}
+.content{
+    margin: 16px;
+    
+}
+.content input{
+    width: 200px;
+    padding: 4px;
+    background: none;
+    margin: 2px -14px;
+    color: white;
+    border-radius: 15px;
+}
+.content  :hover{
+    border-color: yellow;
+    color: white;
+}
+.btn2{
+    
+    margin: 2px 2px;
+    border-radius: 15px;
+    background: none;
+    padding: 4px;
+    background-color: #000000;
+    color:white ;
+    
+}
+.btn2 :hover{
+    border-color: yellow;
+    color: white;
+}
